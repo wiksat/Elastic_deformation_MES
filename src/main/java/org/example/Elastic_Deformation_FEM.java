@@ -45,8 +45,8 @@ public class Elastic_Deformation_FEM {
             y_es[n] += e_i(i, 2, n) * wArray[i];
         }
         x_es[n] = 2;
-        System.out.println(Arrays.toString(x_es));
-        System.out.println(Arrays.toString(y_es));
+//        System.out.println(Arrays.toString(x_es));
+//        System.out.println(Arrays.toString(y_es));
     }
 
     public double getIntegral(int i, int j, int n) {
