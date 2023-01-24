@@ -3,6 +3,8 @@ package org.example;
 import org.apache.commons.math3.analysis.integration.IterativeLegendreGaussIntegrator;
 import org.apache.commons.math3.linear.*;
 
+import java.util.Arrays;
+
 
 public class Elastic_Deformation_FEM {
     public double[] x_es;
@@ -37,9 +39,14 @@ public class Elastic_Deformation_FEM {
             x_es[y] = x;
             y++;
             x +=domain/n;
+            System.out.println(x);
         }
-//        System.out.println(Arrays.toString(x_es));
-//        System.out.println(Arrays.toString(y_es));
+        for (int i = 0; i < n; i++) {
+            y_es[n] += e_i(i, 2, n) * wArray[i];
+        }
+        x_es[n] = 2;
+        System.out.println(Arrays.toString(x_es));
+        System.out.println(Arrays.toString(y_es));
     }
 
     public double getIntegral(int i, int j, int n) {

@@ -34,9 +34,7 @@ public class App extends Application{
         XYChart.Series series = new XYChart.Series();
         series.setName("Wykres funckji u(x)");
         for (int i = 0; i <solver.y_es.length; i++) {
-            if (solver.y_es[i]>0 || solver.x_es[i]>0) {
                 series.getData().add(new XYChart.Data<>(solver.x_es[i], solver.y_es[i]));
-            }
         }
         linechart.setMinWidth(900);
         linechart.setMaxWidth(900);
@@ -51,16 +49,14 @@ public class App extends Application{
             int new_n = Integer.parseInt(movesInput.getText());
             if (new_n > 50 || new_n==1) {
                 throw new IllegalArgumentException("too low or too many elements");
+
             }
             linechart.getData().clear();
             solver.compute(new_n);
             XYChart.Series seriesB = new XYChart.Series();
             seriesB.setName("Wykres funckji u(x)");
             for (int i = 0; i < solver.y_es.length; i++) {
-                if(solver.x_es[i]>0 || solver.y_es[i]>0){
                     seriesB.getData().add(new XYChart.Data<>(solver.x_es[i], solver.y_es[i]));
-
-                }
             }
             linechart.getData().add(seriesB);
         });
