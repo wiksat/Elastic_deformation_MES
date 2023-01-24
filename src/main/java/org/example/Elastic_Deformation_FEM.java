@@ -39,7 +39,7 @@ public class Elastic_Deformation_FEM {
             x_es[y] = x;
             y++;
             x +=domain/n;
-            System.out.println(x);
+//            System.out.println(x);
         }
         for (int i = 0; i < n; i++) {
             y_es[n] += e_i(i, 2, n) * wArray[i];

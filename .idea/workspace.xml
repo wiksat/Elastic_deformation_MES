@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="deb762b8-02f2-4cf7-9165-cff50f7137f7" name="Changes" comment="commit 2">
+    <list default="true" id="deb762b8-02f2-4cf7-9165-cff50f7137f7" name="Changes" comment="repaired bugs2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Elastic_Deformation_FEM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Elastic_Deformation_FEM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/gui/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/gui/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +90,7 @@
       <option name="presentableId" value="Default" />
       <updated>1674581282024</updated>
       <workItem from="1674581285671" duration="165000" />
-      <workItem from="1674581663211" duration="10286000" />
+      <workItem from="1674581663211" duration="10930000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1674582544990</created>
@@ -108,7 +106,21 @@
       <option name="project" value="LOCAL" />
       <updated>1674593781148</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="repaired bugs">
+      <created>1674595767985</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1674595767985</updated>
+    </task>
+    <task id="LOCAL-00004" summary="repaired bugs2">
+      <created>1674595796646</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1674595796646</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,6 +152,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="commit 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit 2" />
+    <MESSAGE value="repaired bugs" />
+    <MESSAGE value="repaired bugs2" />
+    <option name="LAST_COMMIT_MESSAGE" value="repaired bugs2" />
   </component>
 </project>
