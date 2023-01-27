@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="deb762b8-02f2-4cf7-9165-cff50f7137f7" name="Changes" comment="repaired bugs2">
+    <list default="true" id="deb762b8-02f2-4cf7-9165-cff50f7137f7" name="Changes" comment="repaired bugs3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Elastic_Deformation_FEM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Elastic_Deformation_FEM.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,17 +37,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/wikto/IdeaProjects/oolab",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/wikto/IdeaProjects/oolab&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.gui.App" />
@@ -90,7 +91,8 @@
       <option name="presentableId" value="Default" />
       <updated>1674581282024</updated>
       <workItem from="1674581285671" duration="165000" />
-      <workItem from="1674581663211" duration="10930000" />
+      <workItem from="1674581663211" duration="11720000" />
+      <workItem from="1674809009642" duration="2943000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1674582544990</created>
@@ -120,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674595796646</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="repaired bugs3">
+      <created>1674599132674</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1674599132674</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,6 +163,7 @@
     <MESSAGE value="commit 2" />
     <MESSAGE value="repaired bugs" />
     <MESSAGE value="repaired bugs2" />
-    <option name="LAST_COMMIT_MESSAGE" value="repaired bugs2" />
+    <MESSAGE value="repaired bugs3" />
+    <option name="LAST_COMMIT_MESSAGE" value="repaired bugs3" />
   </component>
 </project>

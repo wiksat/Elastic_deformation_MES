@@ -36,17 +36,19 @@ public class Elastic_Deformation_FEM {
             for (int i = 0; i < n; i++) {
                 y_es[y] += e_i(i, x, n) * wArray[i];
             }
+            y_es[y]+=3;
             x_es[y] = x;
             y++;
             x +=domain/n;
-//            System.out.println(x);
         }
+       x_es[n] = 2;
         for (int i = 0; i < n; i++) {
             y_es[n] += e_i(i, 2, n) * wArray[i];
         }
-        x_es[n] = 2;
-//        System.out.println(Arrays.toString(x_es));
-//        System.out.println(Arrays.toString(y_es));
+        y_es[n]+=3;
+
+        System.out.println(Arrays.toString(x_es));
+        System.out.println(Arrays.toString(y_es));
     }
 
     public double getIntegral(int i, int j, int n) {
@@ -66,7 +68,7 @@ public class Elastic_Deformation_FEM {
         return - E_value(x) * e_i(i, x, n) * e_i(j, x, n);
     }
     private double L(int i, double x, int n) {
-        return -10 * E_value(x) * e_i(i, x, n);
+        return -10 * E_value(x) * e_i(i, x, n)+E_value(x)*3*e_i(i, x, n);
     }
     private double e_i(int i, double x, int n) {
         double l = domain / n;
