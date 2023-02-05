@@ -32,7 +32,7 @@ public class Elastic_Deformation_FEM {
         x_es = new double[n+1];
         double x = 0.0;
         int y = 0;
-        while (x <= domain) {
+        while (x < domain) {
             for (int i = 0; i < n; i++) {
                 y_es[y] += e_i(i, x, n) * wArray[i];
             }
@@ -41,7 +41,10 @@ public class Elastic_Deformation_FEM {
             y++;
             x +=domain/n;
         }
+        System.out.println(Arrays.toString(x_es));
+        System.out.println(Arrays.toString(y_es));
        x_es[n] = 2;
+        y_es[n] = 0;
         for (int i = 0; i < n; i++) {
             y_es[n] += e_i(i, 2, n) * wArray[i];
         }

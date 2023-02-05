@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="deb762b8-02f2-4cf7-9165-cff50f7137f7" name="Changes" comment="repaired bugs3">
+      <change afterPath="$PROJECT_DIR$/Solution.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rozwiązanie problemu.docx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Elastic_Deformation_FEM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Elastic_Deformation_FEM.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,6 +29,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
